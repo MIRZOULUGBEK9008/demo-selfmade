@@ -72,3 +72,28 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__logo-link {
+  display: inline-block;
+}
+
+.logo-link {
+}
+.site-header__sitenav {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 20px;
+}
