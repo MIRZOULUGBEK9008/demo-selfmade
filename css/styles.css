@@ -83,17 +83,28 @@ img {
   display: inline-block;
 }
 
-.logo-link {
-}
-.site-header__sitenav {
-}
-.sitenav {
-}
 .sitenav__list {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 .sitenav__item:not(:last-child) {
   margin-right: 20px;
+}
+
+.site-footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.site-footer__item:not(:last-child) {
+  margin-right: 30px;
 }
